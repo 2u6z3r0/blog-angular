@@ -1,0 +1,10 @@
+{
+    "/home-page-service": {
+      "target": " http://gray-hat.herokuapp.com/api/",
+      "secure": false,
+      "pathRewrite": {
+        "^/home-page-service": ""
+      },
+      "changeOrigin": true
+    }
+  }
